@@ -3,8 +3,6 @@ from selenium.webdriver.common import keys
 import time, os
 driver=''
 
-chromedriver_path="C:\\software\\chromedriver\\chromedriver.exe"
-
 def initialise_driver(chromedriver_path):
 	global driver
 	driver = webdriver.Chrome(chromedriver_path)
