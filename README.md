@@ -12,6 +12,9 @@ This is a selenium-based python script to upload a video to dtube and post on st
 
 - Chromedriver download is required, and it **MUST BE COMPATIBLE** to chrome browser. The path to the same must be assigned to chromedriver_path in main.py. 
 Example: chromedriver_path="C:\\software\\chromedriver\\chromedriver.exe"
+- Similarly, username and password are currently in variables, and can be set in the same way. We can externalise these in a convenient fashion if necessary.
+username='abc'
+password='abc'
 
 ## Execution Instructions:
 

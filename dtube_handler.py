@@ -8,15 +8,15 @@ def initialise_driver(chromedriver_path):
 	driver = webdriver.Chrome(chromedriver_path)
 	driver.implicitly_wait(15)
 	
-def login():
+def login(username, password):
 	print('Logging in')
 	driver.get('https://d.tube/#!/login/steem')
 	time.sleep(1)
-	username=driver.find_element_by_id('username')
-	username.send_keys('brianstorm')
+	usernamebox=driver.find_element_by_id('username')
+	usernamebox.send_keys(username)
 	time.sleep(1)
-	password=driver.find_element_by_name('privatekey')
-	password.send_keys('5JikyjfsTR4YLwg7wpqFPjCRpmqskRwRdkUpyhMJZEapTgxbwTu')
+	passwordbox=driver.find_element_by_name('privatekey')
+	passwordbox.send_keys(password)
 	time.sleep(1)
 	button=driver.find_element_by_name('button')
 	button.click()
