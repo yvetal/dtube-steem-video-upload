@@ -2,7 +2,7 @@ import dtube_handler as dh
 import time, os
 
 chromedriver_path="C:\\software\\chromedriver\\chromedriver.exe"
-video_path='C:\\Users\\Neel\\coderepo\\repositories\\dtube-account-creation-selenium\\video_folder'
+video_path='C:\\Users\\Neel\\coderepo\\repositories\\dtube-steem-video-upload\\video_folder'
 username='brianstorm'
 password='5JikyjfsTR4YLwg7wpqFPjCRpmqskRwRdkUpyhMJZEapTgxbwTu'
 
